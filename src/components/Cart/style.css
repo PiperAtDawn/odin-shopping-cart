@@ -1,0 +1,19 @@
+.cart {
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 2px gray;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  min-width: 250px;
+}
+
+.cart.hide {
+  display: none;
+}
+
+.total-wrapper {
+  border-top: solid 1px gray;
+  padding-top: 10px;
+}

@@ -1,0 +1,19 @@
+.cart-item {
+  display: flex;
+  gap: 5px;
+}
+
+.cart-buttons {
+  display: flex;
+  gap: 5px;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+
+.cart-buttons > * {
+  flex: 1;
+}
+
+.cart-buttons > button {
+  width: 30px;
+}
